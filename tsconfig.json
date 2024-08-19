@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./src/*"]
+      },
+      "allowImportingTsExtensions": true,
+      "allowArbitraryExtensions": true,
+      "allowJs": true,
+      "checkJs": true,
+      "declaration": true,
+      "declarationMap": true,
+      "composite": true,
+      "target": "ES6",
+      "module": "Node16",
+      "moduleResolution": "Node16",
+      "alwaysStrict": true,
+      "esModuleInterop": true,
+      "noEmit": true
+    },
+    "exclude": ["node_modules"]
+  }
+  

@@ -1,0 +1,21 @@
+{
+  "name": "@octaedlp00/bot-whatsapp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./src/main.ts",
+  "scripts": {
+    "start": "tsx ./src/main.ts"
+  },
+  "dependencies": {
+    "puppeteer-core": "23.1.0",
+    "qrcode-terminal": "0.12.0",
+    "whatsapp-web.js": "1.25.0"
+  },
+  "devDependencies": {
+    "@types/qrcode-terminal": "0.12.2",
+    "tsx": "4.17.0",
+    "typescript": "5.5.4"
+  },
+  "packageManager": "pnpm@9.7.1+sha1.b0ae55d11432e1af341998848fdc219a62f7623a"
+}
